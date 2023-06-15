@@ -57,8 +57,10 @@
 # Les Set: est une collectiin non ordonnée et sans doublons
 	- les set sont Mutable, Iterable mais pas Indexable ni Sliceable
 	- set(): permet de créer un Objet set
+	- set(objet): permet de convertir un objet en Set
 	- add(objet): permet d'ajouter un élément dans la collection Set
 		* objet dans add() n'est pas mutable.
+	* Les sets ne prennent pas de valeur mutable (comme les listes)
 	* les set sont très utils dans la théorie des ensembles
 	* les set permettent de vérifier l'unicité des éléments dans une collections.
 	- A ^ B: désigne l'ensemble des éléments qui sont dans A et dans B mais pas les deux à la fois.
@@ -116,6 +118,50 @@
 > int(): permet de convertir un String en Int. En réalité y'a une creation d'un nouvel Objet.
 	$ age = int(input("Entrer votre age: "))
 > len(Objet): retourne la taille de l'Objet.
+> chaine.split() : permet convertir une text en une liste de mots.
+> split("separateur") : retourne une liste de mot en se basant sur le séparateur.
+> chaine.replace('A', 'N') : permet de remplacer la lettre A par N dans la chaine. 
+> chaine.lower(): permet de convertir un text en minuscule.
+> chaine.strip(): retire les espaces et les saut de ligne à la fin de la ligne.
+
+
+
+
+### lecture de fichier en python
+
+	* w : permet de remplacer le text contenu dans le fichier
+	* a : permet d'ajouter du text à la fin du text contenu dans le fichier
+	* x : create and write in a new file
+	* rb : permet de lire un text en mode Binaire (binary)
+		Exemple :
+		open("path_file")
+		open("path_file", 'a')
+		open("path_file", 'w')
+		open("path_file", 'rb')
+
+	# Ouvrir un fichier en lecture seul
+	file = open("path_file")
+	file.read(numberChar) # indiqué le nombre de caractères
+	file.seek(0) # initialiser le curseur ou retourner le curseur au début
+
+	# Ouvrir un fichier en lecture seul (recommendé)
+	file = open("path_file")
+	for line in file:
+		print(line, end="")
+	file.close()
+
+	# Ouvrir un fichier en lecture et en ecriture
+	file = open("path_file", 'w')
+	file.write("J'ajoute du text dans le fichier")
+	file.close()
+
+	file = open("path_file", 'a')
+	file.write("J'ajoute du text dans le fichier")
+	file.close()
+
+
+
+
 
 
 
