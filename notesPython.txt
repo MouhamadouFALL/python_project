@@ -110,6 +110,24 @@
 	for item in Iterable:
 		instruction
 
+### Les Exceptions:
+	# 
+
+	try:
+		instructions
+	except NameClassError:
+		instructions
+	else:
+		instructions
+	finally:
+		instructionToujoursExecuter
+
+
+
+
+
+
+
 > print(): permet de formater l'affichage pour un utilisateur non programmeur
 	$ print("Je pense donc je suis.")
 > input(): permet à l'utilisateur d'entrer des données dans le système. permet de poser des questions à l'utilisateur et attendre des réponses.
@@ -124,6 +142,12 @@
 > chaine.lower(): permet de convertir un text en minuscule.
 > chaine.strip(): retire les espaces et les saut de ligne à la fin de la ligne.
 
+> payhlib permet de parcourir un système de fichier (un dossier)
+
+TypeError: non compatiblité des types
+NameError: le nom de la variable n'existe pas.
+IndexError: L'index n'existe pas (dans la liste)
+KeyError: La clé n'existe pas (dans le dictionnaire)
 
 
 
@@ -136,12 +160,14 @@
 		Exemple :
 		open("path_file")
 		open("path_file", 'a')
-		open("path_file", 'w')
+		open("path_file", 'W')
+		open("path_file", 'X')
 		open("path_file", 'rb')
 
 	# Ouvrir un fichier en lecture seul
 	file = open("path_file")
-	file.read(numberChar) # indiqué le nombre de caractères
+	file.read(): permet de lire un fichier
+	file.read(): numberChar: indiqué le nombre de caractères que la fonction doit lire
 	file.seek(0) # initialiser le curseur ou retourner le curseur au début
 
 	# Ouvrir un fichier en lecture seul (recommendé)
@@ -159,11 +185,7 @@
 	file.write("J'ajoute du text dans le fichier")
 	file.close()
 
-
-
-
-
-
+# Lire 
 
 Outils:
 	> sudo apt-get install nautilus-open-terminal
