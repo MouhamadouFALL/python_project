@@ -1,5 +1,21 @@
 
 
+> py -3.10 path_file # path script
+
+
+### Outils:
+	# outils en ligne pour utiliser python rapidement:
+	+ Thonny
+	+ omline-oython.com
+
+	# outils python en ligne de commande:
+	+ terminal: avec la cmd suivant
+		> py -3.10 # pour inquer la version de python qu'o veut utiliser
+		> 
+
+	# outils gratuit:
+	+ code.visualstudio.com
+	+ cmder
 
 ## Type en Python:
 	+ float

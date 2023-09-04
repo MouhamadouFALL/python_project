@@ -1,0 +1,28 @@
+
+
+### Pytthon cours:
+
+    > https://www.youtube.com/@SundeepSaradhi : En
+    > https://www.youtube.com/@placepythonfr : Fr
+
+### scripts python:
+
+    > https://www.youtube.com/@Indently : En
+
+
+### Outils Pytthon:
+    # PyInstaller: est un outil permettant de convertir des scripts Python en executables autonomes pour Windows, Linux et macOS.
+    > https://pyinstaller.org/en/stable/ : En
+
+### Notes:
+
+    # "timeit": est un module Python qui permet de mesurer le temps d'execution d'un code.
+    > https://docs.python.org/fr/3/library/timeit.html
+    > https://www.geeksforgeeks.org/timeit-python-examples/
+
+    # 
+
+### Les Sets:
+
+    > https://www.youtube.com/watch?v=Co2P0z-W8kY : En
+    > 

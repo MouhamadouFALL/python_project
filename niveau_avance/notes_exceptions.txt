@@ -1,0 +1,18 @@
+
+$ 5 / 0
+> ZeroDivisionError: Division par Zero est interdite
+
+$ lion * 5
+> NameError: name 'lion' is not defined
+
+$ 5 + "Lion"
+> TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+
+
+
+
+
+
+
