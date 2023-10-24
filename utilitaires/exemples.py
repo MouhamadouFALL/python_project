@@ -122,3 +122,7 @@ for ligne in generateur:
     print(ligne)
 
 
+# Biblio sys permet de manipuler des repertoires
+
+
+
