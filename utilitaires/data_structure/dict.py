@@ -1,6 +1,49 @@
 import csv
 import codecs
 import collections
+import pdb
+
+
+personnes = {
+    "1": {
+        "nom": "Dupont",
+        "prénom": "Jean",
+        "âge": 30,
+        "profession": "Ingénieur",
+        "ville": "Paris"
+    },
+    "2": {
+        "nom": "Martin",
+        "prénom": "Sophie",
+        "âge": 25,
+        "profession": "Designer",
+        "ville": "Lyon"
+    },
+    "3": {
+        "nom": "Durand",
+        "prénom": "Pierre",
+        "âge": 40,
+        "profession": "Professeur",
+        "ville": "Marseille"
+    }
+}
+
+# get(): permet de recuperer la valeur de la clé passer en parametre
+# si la clé n'existe pas, il retourne None
+res = personnes.get("3")
+print(res)
+
+# get() permet de recuperer la valeur de la clé passer en parametre 
+# si la clé n'existe pas, il retourne le valeur passer en parametre
+res = personnes.get("4", "Personne inconnue")
+print(res)
+
+# on peut recuperer la valeur d'une clé en utilisant les crochets
+res = personnes["3"]
+print(res)
+
+pdb.set_trace()
+
 
 # un dictionnaire n'a pas d'ordre
 with codecs.open("departement.csv", "r", "utf8", "replace") as dept:
