@@ -1,6 +1,17 @@
 
 import re
 
+
+
+
+# open(): retourne un objet fichirt
+# f = open(path_file)
+# f.read()
+# f.seek()
+
+
+
+
 # Lire un Text puis return ligne par ligne
 def read_file_line(pathFile):
     """ Lire le fichier puis retourne chaque ligne du fichier """

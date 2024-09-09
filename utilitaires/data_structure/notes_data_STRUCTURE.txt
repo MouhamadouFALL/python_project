@@ -1,0 +1,8 @@
+
+
+Un gestionnaire de contexte en Python est un objet qui permet de gérer les ressources utilisées dans un bloc de code de manière automatique. Il garantit que les ressources sont correctement allouées et libérées, même en cas d'exceptions ou d'erreurs.
+
+
+[positionDebut:positionFin]
+
+positionFin: n'est pas inclut

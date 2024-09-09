@@ -3,6 +3,14 @@
     un module qui regroupe un ensemble de fonction utile
 """
 
+## Fonction récursive
+def demander_couleur():
+    """ Demande une couleur à l'utilisateur """
+    couleur = input("Entrer une couleur :  ")
+    if couleur == "":
+        print("Vous devez entrer une couleur")
+        return demander_couleur()
+    return couleur
 
 def listing(iterable, bullet='- '):
     """ Retourne une chaine à afficher.
